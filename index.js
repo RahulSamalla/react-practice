@@ -1,35 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import Second from './second';
-import Timer from './useEffect';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Button from './button';
-import Component1   from './component1';
-import Component2   from './component2';
-import Login from './Login';
-import Logo from './logo';
+import Card from './card';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-
-// function buttonAction(x)
-// {
-//     console.log(x);
-//    // return setState("srujan");
-// }
 root.render(
   <React.StrictMode>
-    {/* {/* <App />
-    <Second buttonActions={buttonAction} />
-    <Timer/> */}
-    {/* <Button/> */}
-    {/* <Component1 />    
-    <Component2 />      */}
-    {/* <App /> */}
-    <Logo />
-    <Login />
-
+    <Card />
   </React.StrictMode>
 );
 

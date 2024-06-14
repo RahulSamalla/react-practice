@@ -3,10 +3,9 @@ import './App.css';
 
 function App() {
   return (
-    <div  class ="heading">
-      <h1>Hello Welcome to constructN</h1>
-      <iframe src="https://constructn.ai" width={1120} height={470}></iframe>
-    </div>
+    <h1 className="text-3xl bg-green-500 p-3 rounded-md">
+      Hello world!
+    </h1>
   );
 }
 
